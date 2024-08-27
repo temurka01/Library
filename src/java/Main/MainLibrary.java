@@ -1,7 +1,7 @@
 package Main;
 
 import library.Book;
-import library.LibraryService;
+import Services.LibraryService;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class MainLibrary {
