@@ -3,8 +3,6 @@ package library;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 
-import java.util.Objects;
-
 @AllArgsConstructor
 @Getter
 public class Book {
