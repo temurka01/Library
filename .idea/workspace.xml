@@ -5,14 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="81c1073b-a441-404e-a8a9-f429ac41770d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java/Services/BookService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main/MainLibrary.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/library/Book.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/library/Library.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/library/LibraryService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/context.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/library.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/Main/MainLibrary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/Main/MainLibrary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/Services/LibraryService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/library/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/Models/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/library/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/Models/Library.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/context.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +48,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Admin/IdeaProjects/library/src",
+    "last_opened_file_path": "C:/Users/Admin/IdeaProjects/library",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -58,13 +58,20 @@
     "project.structure.side.proportion": "0.0",
     "spring.configuration.checksum": "46658f9c4794923e38e93efa218d12d6",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\IdeaProjects\library\src\resources" />
       <recent name="C:\Users\Admin\IdeaProjects\library\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\IdeaProjects\library\src\resources" />
       <recent name="C:\Users\Admin\IdeaProjects\library\src\main" />
       <recent name="C:\Users\Admin\IdeaProjects\library\src" />
     </key>
@@ -98,7 +105,8 @@
       <option name="presentableId" value="Default" />
       <updated>1724345278715</updated>
       <workItem from="1724345280046" duration="8096000" />
-      <workItem from="1724776193954" duration="474000" />
+      <workItem from="1724776193954" duration="732000" />
+      <workItem from="1727096291482" duration="10857000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1724353347934</created>
@@ -107,7 +115,21 @@
       <option name="project" value="LOCAL" />
       <updated>1724353347934</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="2">
+      <created>1724776869784</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1724776869784</updated>
+    </task>
+    <task id="LOCAL-00003" summary="2">
+      <created>1724776913237</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1724776913237</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,6 +137,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1" />
-    <option name="LAST_COMMIT_MESSAGE" value="1" />
+    <MESSAGE value="2" />
+    <option name="LAST_COMMIT_MESSAGE" value="2" />
   </component>
 </project>

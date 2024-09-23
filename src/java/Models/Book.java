@@ -1,17 +1,20 @@
-package library;
+package Models;
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
+import lombok.*;
 
 @AllArgsConstructor
+@NoArgsConstructor
+@Builder
 @Getter
+@Setter
 public class Book {
+    private long id;
     private String bookName;
     private String authorName;
 
     @Override
     public String toString() {
-        return bookName + "/" + authorName;
+        return id + "/" + bookName + "/" + authorName;
     }
 
     @Override

@@ -13,12 +13,19 @@
             <scope>provided</scope>
         </dependency>
         <!-- https://mvnrepository.com/artifact/org.springframework/spring-core -->
+<!--        <dependency>-->
+<!--            <groupId>org.springframework</groupId>-->
+<!--            <artifactId>spring-context</artifactId>-->
+<!--            <version>5.3.23</version>-->
+<!--        </dependency>-->
+        <!-- https://mvnrepository.com/artifact/org.postgresql/postgresql -->
         <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-context</artifactId>
-            <version>5.3.23</version>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <version>42.7.4</version>
         </dependency>
+
     </dependencies>
-    <name>Archetype - library</name>
+    <name>Archetype - Models</name>
     <url>http://maven.apache.org</url>
 </project>

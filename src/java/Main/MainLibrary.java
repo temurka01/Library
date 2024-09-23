@@ -1,17 +1,30 @@
 package Main;
 
-import library.Book;
-import Services.LibraryService;
-import org.springframework.context.support.ClassPathXmlApplicationContext;
+import Models.Book;
+import Services.BookService;
+
+
+import java.sql.*;
+import java.util.Scanner;
 
 public class MainLibrary {
-    public static void main(String[] args) {
-        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("context.xml");
-        LibraryService libraryService = (LibraryService) context.getBean("libraryService");
-        System.out.println(libraryService.read(4));
-        libraryService.create(new Book("Тарас Бульба", "Гоголь"));
-        libraryService.update(new Book("Анна Каренина", "Толстой"), new Book("Анна Каренина", "Л.Н.Толстой"));
-        libraryService.delete(new Book("Вишневый сад", "Чехов"));
-        libraryService.upload();
+    public static void main(String[] args) throws SQLException {
+
+        BookService service = new BookService();
+
+//        Scanner scanner = new Scanner(System.in);
+//        Book book = new Book();
+//        book.setBookName(scanner.nextLine());
+//        book.setAuthorName(scanner.nextLine());
+//        service.create(book);
+
+
+        //System.out.println(service.read(3));
+
+
+        //service.delete(12);
+
+
+        service.update(12,new Book(0,"first","second"));
     }
 }
