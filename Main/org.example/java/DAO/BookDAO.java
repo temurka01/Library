@@ -1,14 +1,14 @@
-package Services;
+package DAO;
 
 import Models.Book;
 
 import java.sql.*;
 
 
-public class BookService {
-    private Connection connection;
+public class BookDAO {
+    private final Connection connection;
 
-    public BookService() throws SQLException {
+    public BookDAO() throws SQLException {
         connection = DriverManager.getConnection(
                 "jdbc:postgresql://localhost:5432/postgres",
                 "postgres",
