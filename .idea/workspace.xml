@@ -5,17 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="81c1073b-a441-404e-a8a9-f429ac41770d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Main/org.example/java/Main/MainLibrary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Main/org.example/java/Models/Library.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/32cb9b66-fafa-4ef1-a185-fe7a12eaec0d.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/32cb9b66-fafa-4ef1-a185-fe7a12eaec0d.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/Main/MainLibrary.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/Models/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/Main/org.example/java/Models/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/Models/Library.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/Services/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Main/org.example/java/DAO/BookDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/library.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Main/org.example/resources/library.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/org.example/java/DAO/BookDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/org.example/java/DAO/BookDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/org.example/java/Main/MainLibrary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/org.example/java/Main/MainLibrary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/org.example/java/Models/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/org.example/java/Models/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/org.example/java/Models/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/org.example/java/Models/Library.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/org.example/resources/library.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/resources/library.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,11 +71,11 @@
       <recent name="C:\Users\Admin\IdeaProjects\library\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\IdeaProjects\library\src\Main" />
+      <recent name="C:\Users\Admin\IdeaProjects\library\src" />
       <recent name="C:\Users\Admin\IdeaProjects\library\Main\org.example" />
       <recent name="C:\Users\Admin\IdeaProjects\library\Main\ru.maxima" />
       <recent name="C:\Users\Admin\IdeaProjects\library\src\resources" />
-      <recent name="C:\Users\Admin\IdeaProjects\library\src\main" />
-      <recent name="C:\Users\Admin\IdeaProjects\library\src" />
     </key>
   </component>
   <component name="RunManager">
@@ -112,7 +109,8 @@
       <workItem from="1724345280046" duration="8096000" />
       <workItem from="1724776193954" duration="732000" />
       <workItem from="1727096291482" duration="13835000" />
-      <workItem from="1727701752242" duration="3175000" />
+      <workItem from="1727701752242" duration="3522000" />
+      <workItem from="1727712369038" duration="62000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1724353347934</created>
@@ -142,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1727108474541</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="5">
+      <created>1727704952025</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1727704952025</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,13 +157,14 @@
     <MESSAGE value="1" />
     <MESSAGE value="2" />
     <MESSAGE value="4" />
-    <option name="LAST_COMMIT_MESSAGE" value="4" />
+    <MESSAGE value="5" />
+    <option name="LAST_COMMIT_MESSAGE" value="5" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Main/org.example/java/Main/MainLibrary.java</url>
+          <url>file://$PROJECT_DIR$/src/Main/org.example/java/Main/MainLibrary.java</url>
           <line>17</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
